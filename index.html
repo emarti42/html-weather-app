@@ -1,5 +1,95 @@
 <html>
   <body>
-    
+    <article class="weather-widget">
+  <section class="weather-primary">
+    <header>
+      <h2>Monday</h2>
+      <time datetime="2022-06-20">20 Jun 2022</time>
+      <address>
+        <span class="icon-location" aria-hidden="true">📍</span> Biarritz, FR
+      </address>
+    </header>
+
+    <div class="current-conditions">
+      <img src="sunny-icon.svg" alt="Sunny weather icon" class="weather-icon-large">
+      <p class="temperature">29 &deg;C</p>
+      <p class="condition">Sunny</p>
+    </div>
+  </section>
+
+  <section class="weather-secondary">
+    <dl class="weather-details">
+      <dt>PRECIPITATION</dt>
+      <dd>0%</dd>
+
+      <dt>HUMIDITY</dt>
+      <dd>42%</dd>
+
+      <dt>WIND</dt>
+      <dd>3 km/h</dd>
+
+      <dt>AIR QUALITY</dt>
+      <dd>51 <span class="status-indicator good">Good</span></dd>
+    </dl>
+
+    <section class="forecast-hourly">
+      <h3 class="sr-only">Hourly Forecast</h3>
+      <ol>
+        <li>
+          <time>Now</time>
+          <img src="sunny-icon.svg" alt="Sunny">
+          <span class="temperature">29 &deg;C</span>
+        </li>
+        <li>
+          <time>1PM</time>
+          <img src="sunny-icon.svg" alt="Sunny">
+          <span class="temperature">32 &deg;C</span>
+        </li>
+        <li>
+          <time>2PM</time>
+          <img src="partly-cloudy-icon.svg" alt="Partly cloudy">
+          <span class="temperature">33 &deg;C</span>
+        </li>
+        <li>
+          <time>3PM</time>
+          <img src="partly-cloudy-icon.svg" alt="Partly cloudy">
+          <span class="temperature">33 &deg;C</span>
+        </li>
+      </ol>
+    </section>
+
+    <section class="forecast-daily">
+      <h3 class="sr-only">Daily Forecast</h3>
+      <ol>
+        <li class="active">
+          <time datetime="Tuesday">Tue</time>
+          <img src="sunny-icon.svg" alt="Sunny">
+          <span class="temperature">30 &deg;C</span>
+        </li>
+        <li>
+          <time datetime="Wednesday">Wed</time>
+          <img src="cloudy-icon.svg" alt="Cloudy">
+          <span class="temperature">22 &deg;C</span>
+        </li>
+        <li>
+          <time datetime="Thursday">Thu</time>
+          <img src="rain-icon.svg" alt="Rain">
+          <span class="temperature">06 &deg;C</span>
+        </li>
+        <li>
+          <time datetime="Friday">Fri</time>
+          <img src="sunny-icon.svg" alt="Sunny">
+          <span class="temperature">26 &deg;C</span>
+        </li>
+      </ol>
+    </section>
+
+    <footer>
+      <button type="button" class="btn-location">
+        <span class="icon-location" aria-hidden="true">📍</span> New York City
+      </button>
+    </footer>
+  </section>
+</article>
   </body>
 </html>
