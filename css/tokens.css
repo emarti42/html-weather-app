@@ -1,0 +1,50 @@
+:root {
+    /* Colors */
+  --color-navy-blue-100: #222831;
+  --color-white-100: #ffffff;
+  --color-black-100: #000000;
+  --color-green-100: #4bb419;
+  --color-yellow-100: #ecce21;
+  --color-red-100: #db2929;
+  --color-dark-grey-blue-100: #272e37;
+  --color-teal-100: #90d9e0;
+  --color-purple-100: #5460e6;
+
+      /* Typography */
+  --primary-text-color: var(--color-white-100);
+
+      /* Design */
+  --app-background-color: var(--color-navy-blue-100);
+
+      /* Font Sizes */
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-26: 26px;
+  --font-size-28: 28px;
+  --font-size-30: 30px;
+  --font-size-36: 36px;
+  --font-size-50: 50px;
+  
+        /* Font Sizes */
+  --regular-text: var(--font-size-20);
+
+      /* Headings */
+  --heading-font-primary: var(--font-family-montserrat);
+  --font-heading-large: var(--font-size-50);
+  --font-heading-md: var(--font-size-36);
+  --font-heading-small: var(--font-size-28);
+  --font-body-info: var(--font-size-20);
+
+      /* Borders and Border Radius */
+  --border-radius-30: 30px;
+  --border-radius-24: 24px;
+  --border-radius-10: 10px;
+  --border-round-day-panel: var(--border-radius-30);
+  --border-round-day-forecast-panel: var(--border-radius-30);
+  --border-radius-day: var(--border-radius-10);
+  --border-radius-button: var(--border-radius-10);
+
+}
