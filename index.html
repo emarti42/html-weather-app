@@ -18,7 +18,7 @@
     </header>
 
     <div class="current-conditions">
-      <img src="sunny-icon.svg" alt="Sunny weather icon" class="weather-icon-large">
+      <div class="weather-icon-large" aria-label="Sunny weather">☀️</div>
       <p class="temperature">29 &deg;C</p>
       <p class="condition">Sunny</p>
     </div>
@@ -42,25 +42,35 @@
     <section class="forecast-hourly">
       <h3 class="sr-only">Hourly Forecast</h3>
       <ol>
-        <li>
+        <li class="active">
           <time>Now</time>
-          <img src="sunny-icon.svg" alt="Sunny">
+          <span aria-label="Sunny" role="img">☀️</span>
           <span class="temperature">29 &deg;C</span>
         </li>
         <li>
           <time>1PM</time>
-          <img src="sunny-icon.svg" alt="Sunny">
+          <span aria-label="Sunny" role="img">☀️</span>
           <span class="temperature">32 &deg;C</span>
         </li>
         <li>
           <time>2PM</time>
-          <img src="partly-cloudy-icon.svg" alt="Partly cloudy">
+          <span aria-label="Partly cloudy" role="img">⛅</span>
           <span class="temperature">33 &deg;C</span>
         </li>
         <li>
           <time>3PM</time>
-          <img src="partly-cloudy-icon.svg" alt="Partly cloudy">
+          <span aria-label="Partly cloudy" role="img">⛅</span>
           <span class="temperature">33 &deg;C</span>
+        </li>
+        <li>
+          <time>4PM</time>
+          <span aria-label="Sunny" role="img">☀️</span>
+          <span class="temperature">34 &deg;C</span>
+        </li>
+        <li>
+          <time>5PM</time>
+          <span aria-label="Cloudy" role="img">☁️</span>
+          <span class="temperature">30 &deg;C</span>
         </li>
       </ol>
     </section>
@@ -70,23 +80,33 @@
       <ol>
         <li class="active">
           <time datetime="Tuesday">Tue</time>
-          <img src="sunny-icon.svg" alt="Sunny">
+          <span aria-label="Sunny" role="img">☀️</span>
           <span class="temperature">30 &deg;C</span>
         </li>
         <li>
           <time datetime="Wednesday">Wed</time>
-          <img src="cloudy-icon.svg" alt="Cloudy">
+          <span aria-label="Cloudy" role="img">☁️</span>
           <span class="temperature">22 &deg;C</span>
         </li>
         <li>
           <time datetime="Thursday">Thu</time>
-          <img src="rain-icon.svg" alt="Rain">
-          <span class="temperature">06 &deg;C</span>
+          <span aria-label="Rain" role="img">🌧️</span>
+          <span class="temperature">26 &deg;C</span>
         </li>
         <li>
           <time datetime="Friday">Fri</time>
-          <img src="sunny-icon.svg" alt="Sunny">
+          <span aria-label="Sunny" role="img">☀️</span>
           <span class="temperature">26 &deg;C</span>
+        </li>
+        <li>
+          <time datetime="Saturday">Sat</time>
+          <span aria-label="Sunny" role="img">☀️</span>
+          <span class="temperature">28 &deg;C</span>
+        </li>
+        <li>
+          <time datetime="Sunday">Sun</time>
+          <span aria-label="Cloudy" role="img">☁️</span>
+          <span class="temperature">23 &deg;C</span>
         </li>
       </ol>
     </section>
