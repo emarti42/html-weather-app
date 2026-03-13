@@ -1,3 +1,10 @@
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -121,7 +128,7 @@ body {
 .weather-details dd {
   margin: 0;
   font-size: var(--font-heading-small);
-  font-weight: 700;
+  font-weight: 400;
   text-align: right;
   color: var(--color-white-100);
 }
