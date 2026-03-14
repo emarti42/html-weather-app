@@ -137,11 +137,10 @@ body {
   border-radius: 999px;
   background: var(--color-green-100);
   color: var(--color-black-100);
-  font-size: 0.7rem;
-  padding: 0.1rem 0.35rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
   margin-left: 0.35rem;
-  font-weight: 600;
-}
+  font-weight: 600;  vertical-align: middle;}
 
 .forecast-hourly,
 .forecast-daily {
@@ -195,6 +194,12 @@ body {
   border-radius: 0.35rem;
   background: rgba(255, 255, 255, 0.03);
   scroll-snap-align: start;
+  transition: transform 0.2s ease;
+}
+
+.forecast-hourly li:hover,
+.forecast-daily li:hover {
+  transform: translateY(-5px);
 }
 
 .forecast-hourly li.active,
